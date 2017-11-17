@@ -10,7 +10,6 @@ public class gameplayer {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		try {
-//		Scanner input = new Scanner(System.in);
 		host=InetAddress.getLocalHost();
 		}
 		catch(UnknownHostException unEp) {

@@ -118,8 +118,12 @@ class UserHdlr extends Thread
 				output.printf("-enter new guessing character to continue\n");
 				
 				judge=1;
+				break;
+			}else {
+			output.printf("%10s %20s %10s\n", "word", "remaing attempt", "score");
+			output.printf("%10s %20s %10s\n", s1.toString(),n-t, score);
+			output.printf("-you fail this time, enter again!\n");
 			}
-			break;
 			
 		}
  		/*if(gword.equals(s.toString())) {
