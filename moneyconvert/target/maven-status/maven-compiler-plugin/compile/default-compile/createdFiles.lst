@@ -1,0 +1,5 @@
+model\Currency_.class
+controller\MoneyFacade.class
+model\Currency.class
+integration\valueDAO.class
+view\manager.class
